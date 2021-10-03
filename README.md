@@ -4,6 +4,8 @@ Sveiki!
 
 Čia bus saugomi ir kaupiami 10-12 klasių informatikos/programavimo kurso uždaviniai.
 
-Repositorijoje bus saugomi tik uždavinių .cpp failai,
-kad būtų galima lengvai išsisaugoti neužbaigtą uždavinį,
-tuomet, kitą pamoką arba namuose nusikopijuoti kodą ir tęsti toliau :]
+Repositorijoje bus saugomi tik uždavinių .cpp failai ir duomenu .txt failai.
+
+Pagrinde 10 - 12 klasiu programavimo kursas mokomas iš dviejų knygų:
+Šiuolaikiškas žvilgsnis į programavimo pagrindus C++. (9-10kl.) - čia bus vadinama "pirmoji-knyga"
+Šiuolaikiškas žvilgsnis į programavimą C++. (10-12kl.) - čia bus vadinama "antroji-knyga"
