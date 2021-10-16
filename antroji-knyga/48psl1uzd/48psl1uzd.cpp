@@ -10,9 +10,7 @@ int gyventojuSK(vector<int>GYVENTOJAI);
 void kairDesNamaiGyv(vector<int> NAMAI, vector<int> GYVENTOJAI, int& desGyv, int& kairGyv, int& kairNamai, int& desNamai);
 void isvedimas(int gyvSk, int kairGyv, int desGyv, double kairVidurkis, double desVidurkis, ofstream & output);
 
-
 int main() {
-
 	ifstream input("gyventojai.txt");
 	ofstream output("rez.txt");
 
@@ -38,10 +36,8 @@ int main() {
 
 	isvedimas(gyvSk, kairGyv, DesGyv, kairVidurkis, desVidurkis, output);
 
-
 	input.close();
 	output.close();
-
 
 	return 0;
 }
@@ -51,7 +47,7 @@ void skaitymas(vector<int>& NAMAI, vector<int>& GYVENTOJAI, ifstream & input) {
 		int nr, gyv;
 		input >> nr;
 		input >> gyv;
-		
+
 		NAMAI.push_back(nr);
 		GYVENTOJAI.push_back(gyv);
 	}
@@ -59,6 +55,7 @@ void skaitymas(vector<int>& NAMAI, vector<int>& GYVENTOJAI, ifstream & input) {
 
 int gyventojuSK(vector<int> GYVENTOJAI) {
 	int suma = 0;
+
 	for (size_t i = 0; i < GYVENTOJAI.size(); i++) {
 		suma += GYVENTOJAI[i];
 	}
@@ -86,6 +83,6 @@ void isvedimas(int gyvSk, int kairGyv, int desGyv, double kairVidurkis, double d
 	output << gyvSk << endl;
 	output << kairGyv << endl;
 	output << desGyv << endl;
-	output << fixed << setprecision(2) << kairVidurkis <<endl;
-	output << fixed << setprecision(2) << desVidurkis <<endl;
+	output << fixed << setprecision(2) << kairVidurkis << endl;
+	output << fixed << setprecision(2) << desVidurkis << endl;
 }
