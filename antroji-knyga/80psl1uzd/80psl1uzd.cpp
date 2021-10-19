@@ -6,6 +6,8 @@ using namespace std;
 
 void Skaityti(ifstream& input, int& nA, int& nB, int A[], int B[]);
 void Iterpimas(int v, int& n, int arr[], int iterpinys);
+void Iterpinejimas(int A[], int B[], int nA, int nB);
+void Isvesti(ofstream& output, int B[], int n);
 
 int main()
 {
@@ -18,11 +20,8 @@ int main()
 	int B[100];
 
 	Skaityti(input, nA, nB, A, B);
-
 	Iterpinejimas(A, B, nA, nB);
-
-
-
+	Isvesti(output, B, nA);
 
 	input.close();
 	output.close();
@@ -69,7 +68,8 @@ void Iterpinejimas(int A[], int B[], int nA, int nB)
 	}
 }
 
-void Isvesti(ofstream& )
+void Isvesti(ofstream& output, int B[], int n)
 {
-
+    for (int i = 0; i < n; i++)
+        output << B[i] << " ";
 }
