@@ -1,0 +1,4 @@
+Reikes varztu: 
+8 8 10 
+Reikes verzliu: 
+2 2 4 2 4 
