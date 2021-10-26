@@ -13,7 +13,7 @@ int main()
 {
 	ifstream in("Pradiniai.txt");
 	ofstream out("Rezultatai.txt");
-	
+
 	int n, m;
 	int VAR[100];
 	int VER[100];
@@ -31,17 +31,17 @@ int main()
 void skaitymas(ifstream& in, int mas[], int& n)
 {
 	in >> n;
-	for (size_t i = 0; i < n; i++)
+	for (int i = 0; i < n; i++)
 	{
 		in >> mas[i];
 	}
 }
 
-void skaiciavimas(int& n, int& m, int VAR[], int VER[]) 
+void skaiciavimas(int& n, int& m, int VAR[], int VER[])
 {
-	for (size_t i = 0; i < n; i++)
+	for (int i = 0; i < n; i++)
 	{
-		for (size_t j = 0; j < m; j++)
+		for (int j = 0; j < m; j++)
 		{
 			if (VAR[i] == VER[j])
 			{
@@ -52,39 +52,63 @@ void skaiciavimas(int& n, int& m, int VAR[], int VER[])
 			}
 		}
 	}
-	
 }
 
 void salinimas (int mas[], int v, int& n)
 {
-	for (size_t i = v; i <= n; i++)
+	for (int i = v; i <= n; i++)
 	{
 		mas[i] = mas[i + 1];
 	}
 	n--;
 }
 
-void isvedimas(ofstream& out, int VAR[], int VER[], int n, int m) 
+void isvedimas(ofstream& out, int VAR[], int VER[], int n, int m)
 {
-	if (n != 0) 
+    if (m != 0)
 	{
-		out << "Reikes varztu: " << endl;
+		out << "Reikalingos verzles: " << endl;
 
-		for (size_t i = 0; i < n; i++)
-		{
-			out << VAR[i] << " ";
-		}
-		out << endl;
+		for(int j = 0; j < m; j++)
+        {
+            int sk = VER[0];
+            int kiekis = 1;
+            for (int i = 1; i < m; i ++)
+            {
+                if(sk == VER[i])
+                {
+                    kiekis++;
+                    salinimas(VER, i, m);
+                    i--;
+                }
+            }
+          out << kiekis << " " << sk << endl;
+          salinimas(VER, 0, m);
+          j--;
+        }
 	}
 
-	if (m != 0)
+	if (n != 0)
 	{
-		out << "Reikes verzliu: " << endl;
+		out << "Reikalingi varztai: " << endl;
 
-		for (size_t i = 0; i < m; i++)
-		{
-			out << VER[i] << " ";
-		}
+		for(int j = 0; j < n; j++)
+        	{
+            		int sk = VAR[0];
+            		int kiekis = 1;
+		    	for (int i = 1; i < n; i ++)
+            		{
+                		if(sk == VAR[i])
+                		{
+                    			kiekis++;
+                    			salinimas(VAR, i, n);
+                    			i--;
+                		}
+            		}
+          		out << kiekis << " " << sk << endl;
+          		salinimas(VAR, 0, n);
+          		j--;
+        	}
 		out << endl;
 	}
 }
