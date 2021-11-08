@@ -4,7 +4,7 @@ Sveiki!
 
 Čia bus saugomi ir kaupiami 10-12 klasių informatikos/programavimo kurso uždaviniai.
 
-Repositorijoje bus saugomi tik uždavinių .cpp failai ir duomenu .txt failai.
+Repositorijoje bus saugomi tik uždavinių .cpp failai ir duomenu ir rezultatu  .txt failai.
 
 
 
