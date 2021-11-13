@@ -1,0 +1,13 @@
+A masyvas pries keitima: 
+  1  2  3  4  5  6  7  8
+ -5  5  3 15 45 75  2 16
+B masyvas pries keitima: 
+  1  2  3  4  5  6
+ -7  8 50 36  4  9
+
+A masyvas po keitimo: 
+  1  2  3  4  5  6  7  8
+ 75  5  3 15 45 -5  2 16
+B masyvas po keitimo: 
+  1  2  3  4  5  6
+ -7  8  9 36  4 50
