@@ -1,0 +1,7 @@
+Eil Nr. skyriai
+1       6
+2       5
+3      10
+4      11
+
+Daugiausia skyriu yra 4 eiluteje 
