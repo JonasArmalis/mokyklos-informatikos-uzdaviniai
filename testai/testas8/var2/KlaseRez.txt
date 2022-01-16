@@ -1,0 +1,7 @@
+         Vardas        Pavarde       Vidurkis
+--------------------------------------------------
+         Petras       grazulis              9
+         kipras     televicius          8.125
+       kasparas          gieda              5
+--------------------------------------------------
+         Klases       Vidurkis          7.375

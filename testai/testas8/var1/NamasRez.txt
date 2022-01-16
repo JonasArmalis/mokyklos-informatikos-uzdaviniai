@@ -1,0 +1,7 @@
+Buto Nr.     Pavarde    puse metu eurais
+       7     Armalis                 5.1
+       8  Jankauskas                5.25
+       8   Barcaitis                5.55
+      10  Kazlauskas                5.25
+
+Is viso name buvo sunaudota: 21.15 energijos eurais.

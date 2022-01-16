@@ -1,0 +1,5 @@
+4
+7 Armalis 8 7 5 9 2 3
+8 Jankauskas 4 5 7 9 2 8
+8 Barcaitis 7 6 3 4 8 9
+10 Kazlauskas 9 8 4 5 6 3
