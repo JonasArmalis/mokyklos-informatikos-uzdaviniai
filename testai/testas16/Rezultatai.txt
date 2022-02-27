@@ -1,0 +1,14 @@
+Gatves pavadinimas          ilgis  namu skaicius
+         Kranto              2        15
+       Kestucio              4        16
+ Juozapaviciaus              6        22
+
+Gatves pavadinimas          ilgis  namu skaicius
+        Vytauto              8        56
+       Vilniaus              4        13
+         Dovydo              2        25
+
+Gatves pavadinimas          ilgis  namu skaicius   miestas
+         Dovydo              2        25             Vilnius
+       Kestucio              4        16              Kaunas
+
