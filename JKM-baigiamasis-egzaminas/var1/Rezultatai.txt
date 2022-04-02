@@ -1,0 +1,7 @@
+Zalgirio komanda: 
+        Pavarde         Vardas         Baudos     Dvitaskiai     Tritaskiai
+        Sabonis       Domantas             10             12              2
+    Kasparaitis       Kasparas              2              5              8
+        Jonelis        Dovydas              6              8              1
+     Kazlauskas      Vismantas             11              4              2
+

@@ -1,0 +1,29 @@
+Pradiniai : 
+Pavadinimas   Kiekis   Kaina
+   Savaite       4       5
+  Zurnalas       3       8
+
+Pavadinimas   Kiekis   Kaina
+   Flintas       2      15
+    Zmones       1      20
+  Komiksai      10       3
+
+Papildytas: 
+Pavadinimas   Kiekis   Kaina
+   Savaite       4       5
+  Zurnalas       3       8
+   Flintas       2      15
+    Zmones       1      20
+  Komiksai      10       3
+
+Kainorastis:
+Pavadinimas   3 men.   6 men.   12 men.
+   Flintas      90     180     360
+  Komiksai      90     180     360
+   Savaite      60     120     240
+    Zmones      60     120     240
+  Zurnalas      72     144     288
+
+Pigiausias metinis: 
+   Savaite  240 per metus
+

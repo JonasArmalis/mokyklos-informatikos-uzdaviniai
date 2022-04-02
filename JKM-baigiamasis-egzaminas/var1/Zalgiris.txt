@@ -1,0 +1,4 @@
+Domantas Sabonis 1.9 10 12 2
+Kasparas Kasparaitis 1.95 2 5 8
+Dovydas Jonelis 1.98 6 8 1
+Vismantas Kazlauskas 2.02 11 4 2
